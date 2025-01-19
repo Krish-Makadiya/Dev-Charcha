@@ -3,7 +3,6 @@
 import Navbar from "@/components/Navbar";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 import {
     Card,
     CardContent,
@@ -11,7 +10,7 @@ import {
     CardHeader,
     CardTitle,
 } from "@/components/ui/card";
-import { Code, Users, MessageSquare, Zap } from "lucide-react";
+import { Code, Users, MessageSquare } from "lucide-react";
 import { useUser } from "@clerk/nextjs";
 
 const HomePage = () => {

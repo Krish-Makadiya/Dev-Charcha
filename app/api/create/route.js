@@ -20,15 +20,15 @@ export async function POST(request) {
     });
 
     const slugs = [
-        "python-discussion",
-        "javascript-discussion",
-        "java-discussion",
-        "cpp-discussion",
-        "csharp-discussion",
-        "ruby-discussion",
-        "go-discussion",
-        "swift-discussion",
-        "rust-discussion",
+        "python-discussion-new",
+        "javascript-discussion-new",
+        "java-discussion-new",
+        "cpp-discussion-new",
+        "csharp-discussion-new",
+        "ruby-discussion-new",
+        "go-discussion-new",
+        "swift-discussion-new",
+        "rust-discussion-new",
     ];
 
     function slugToTitle(slug) {
